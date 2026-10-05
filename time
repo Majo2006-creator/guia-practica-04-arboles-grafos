@@ -1,0 +1,14 @@
+import time
+
+inicio = time.perf_counter()
+
+# Ejecución del algoritmo de búsqueda
+ruta, costo = dijkstra(vuelos, "Quito", "Manta")
+
+fin = time.perf_counter()
+
+tiempo = fin - inicio
+
+print("Ruta:", ruta)
+print("Costo:", costo)
+print("Tiempo de ejecución:", tiempo, "segundos")
