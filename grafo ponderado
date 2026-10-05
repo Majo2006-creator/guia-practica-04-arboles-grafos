@@ -1,0 +1,7 @@
+vuelos = {
+    "Quito": [("Guayaquil", 45), ("Loja", 35), ("Cuenca", 40)],
+    "Guayaquil": [("Quito", 45), ("Loja", 50), ("Cuenca", 30), ("Manta", 35)],
+    "Loja": [("Quito", 35), ("Cuenca", 25), ("Guayaquil", 50)],
+    "Cuenca": [("Quito", 40), ("Loja", 25), ("Guayaquil", 30), ("Manta", 45)],
+    "Manta": [("Guayaquil", 35), ("Cuenca", 45)]
+}
